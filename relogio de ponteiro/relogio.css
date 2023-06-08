@@ -6,8 +6,11 @@
 }
 
 body{
-    background: rgb(127,255,212);
-    background: radial-gradient(circle, rgba(127,255,212,1) 0%, rgba(218,112,214,1) 75%);
+    
+
+ background: rgb(127,255,212);
+ background: radial-gradient(circle, rgba(127,255,212,1) 0%, rgba(218,112,214,1) 75%);
+
 }
 
 
@@ -24,7 +27,7 @@ main {
 
     width: 600px;
     height: 600px;
-    background-color:#E6E6FA;
+    background:	#ADD8E6;
     border-radius: 600px;
     border: 15px groove #333;
     position: relative;
