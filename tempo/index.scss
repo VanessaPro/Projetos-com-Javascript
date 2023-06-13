@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
 }
+
 $primary: #ffff;
 
 *{
@@ -66,11 +67,14 @@ h2{
 
 .box-big{
     margin-top: 10px;
-    .temp{
+    .wind{
         font-size: 20px;
         color: $primary;
         margin-top: 20px;
     }
+    .umid{
+        color: $primary;
+       }
 }
 
 .box-small{
@@ -80,10 +84,9 @@ h2{
     .txt-prev{
         color: $primary;
         margin-left: 10px;
+        text-transform: capitalize;
+
     }
-    .umid{
-        color: $primary;
-    }
+      
+    
 }
-
-

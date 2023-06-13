@@ -57,10 +57,13 @@ h2 {
 .box-big {
   margin-top: 10px;
 }
-.box-big .temp {
+.box-big .wind {
   font-size: 20px;
   color: white;
   margin-top: 20px;
+}
+.box-big .umid {
+  color: white;
 }
 
 .box-small {
@@ -71,7 +74,5 @@ h2 {
 .box-small .txt-prev {
   color: white;
   margin-left: 10px;
-}
-.box-small .umid {
-  color: white;
+  text-transform: capitalize;
 }/*# sourceMappingURL=index.css.map */
